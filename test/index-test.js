@@ -27,6 +27,11 @@ function dec(n) {
   return n
 }
 
+function makeInt(n) {
+  
+}
+}
+
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
