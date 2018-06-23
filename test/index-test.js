@@ -13,7 +13,9 @@ function multiply(a, b) {
   return a * b
 }
 
-
+function divide(a, b) {
+  return b / a
+}
 
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
