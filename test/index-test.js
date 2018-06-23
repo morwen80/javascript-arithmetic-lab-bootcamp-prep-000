@@ -1,5 +1,6 @@
 var a = 500
 var b = 100
+var n = 10
 
 function add(a, b) {
   return a + b
@@ -28,7 +29,7 @@ function dec(n) {
 }
 
 function makeInt(n, b) {
-  parseInt('n', 10)
+  parseInt(n, 10)
   return n
 }
 
