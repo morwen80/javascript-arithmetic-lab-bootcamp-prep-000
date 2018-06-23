@@ -28,9 +28,10 @@ function dec(n) {
   return n
 }
 
-function makeInt(n, b) {
-  parseInt(n, 10)
-  return n
+function makeInt(n, base) {
+  var parsed = parseInt(n, base);
+  if (isNaN(parsed)) { return 0 }
+  return parsed * 10;
 }
 
 function preserveDecimal(n) {
