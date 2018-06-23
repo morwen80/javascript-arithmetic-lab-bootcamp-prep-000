@@ -32,8 +32,6 @@ function makeInt(n) {
   return n
 }
 
-function 
-}
 
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
