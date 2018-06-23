@@ -1,4 +1,4 @@
-var a = 50
+var a = 500
 var b = 100
 
 function add(a, b) {
@@ -71,7 +71,7 @@ describe('makeInt(n)', function() {
   })
 
   it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
+    expect(makeInt('0.2328')).toEqual(0)
   })
 
   it('returns NaN as appropriate', function() {
