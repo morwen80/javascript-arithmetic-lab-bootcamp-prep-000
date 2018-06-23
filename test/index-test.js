@@ -27,12 +27,15 @@ function dec(n) {
   return n
 }
 
-function makeInt(n) {
+function makeInt(n, 10) {
   parseInt(n, 10)
   return n
 }
 
-
+function preserveDecimal(n) {
+  parseFloat(n)
+  return n
+}
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
