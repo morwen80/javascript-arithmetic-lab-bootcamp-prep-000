@@ -17,6 +17,16 @@ function divide(a, b) {
   return a /b 
 }
 
+function inc(n) {
+  n++
+  return n
+}
+
+function dec(n) {
+  n--
+  return n
+}
+
 beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
